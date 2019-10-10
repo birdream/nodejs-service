@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdream/nodejs-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birdream/nodejs-service/issues"
+  },
+  "homepage": "https://github.com/birdream/nodejs-service#readme",
+  "dependencies": {
+    "bluebird": "3.7.0",
+    "hapi": "18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "4.x.x",
+    "eslint-plugin-xogroup": "2.x.x"
+  }
+}
