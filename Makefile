@@ -9,7 +9,7 @@ docker-build:
 	docker build -t ${FULL_NAME} -f docker/Dockerfile .
 
 docker-run: docker-build
-	docker run --rm -it -p 80:80 $(NAME)
+	docker run --rm -it -p 3000:3000 $(NAME)
 
 docker-push:
 	docker-build
