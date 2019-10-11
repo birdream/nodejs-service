@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: no-service
-        image:
-          repository: "normanchan/nodejs-services"
+        image: "normanchan/nodejs-services"
         resources:
           requests:
             cpu: 100m
