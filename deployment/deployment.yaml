@@ -6,13 +6,11 @@ spec:
   selector:
     matchLabels:
       app: node-testing
-      tier: srv
   replicas: 1
   template:
     metadata:
       labels:
         app: node-testing
-        tier: srv
     spec:
       containers:
       - name: no-service
