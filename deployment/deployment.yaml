@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: no-service
-        image: docker.io/normanchan/nodejs-services
+        image: normanchan/nodejs-services
         resources:
           requests:
             cpu: 100m
