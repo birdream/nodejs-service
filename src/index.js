@@ -6,9 +6,17 @@ const Routes = require('./routes');
 const init = async () => {
 
     const server = Hapi.server({
-        port: 80,
-        host: '0.0.0.0'
+        port: 8080,
+        host: '127.0.0.1',
+        routes: {
+            cors: {
+                origin: ['*']
+            }
+        }
     });
+
+    // server.path(__dirname);
+    // server.route({ path: '/file', method: 'GET', handler: { file: './index.html' } });
 
     Routes.forEach(rt => {
         server.route(rt)
